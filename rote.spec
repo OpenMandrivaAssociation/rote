@@ -15,6 +15,7 @@ License: GPL
 Group: System/Libraries
 Url: http://rote.sourceforge.net/
 BuildRequires: ncurses-devel
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 ROTE is a simple C library for VT102 terminal emulation. It allows
