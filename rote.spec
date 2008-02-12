@@ -49,7 +49,6 @@ Provides: librote-devel
 Requires: %libname = %{version}
 
 %description -n %libname_devel
-
 ROTE is a simple C library for VT102 terminal emulation. It allows
 the programmer to set up virtual 'screens' and send them data. The
 virtual screens will emulate the behavior of a VT102 terminal,
