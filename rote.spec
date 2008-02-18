@@ -6,7 +6,7 @@
 %define  libname_devel  %mklibname -d  %{name} %{major}
 
 
-Summary: ROTE is a simple C library for VT102 terminal emulation
+Summary: Simple C library for VT102 terminal emulation
 Name: %{name}
 Version: %{version}
 Release: %{release}
@@ -27,7 +27,7 @@ virtual screen to the real screen when you need to.
 
 
 %package -n %libname
-Summary: A simple C library for VT102 terminal emulation
+Summary: Simple C library for VT102 terminal emulation
 Group: System/Libraries
 
 Provides: %{name}
@@ -43,7 +43,7 @@ virtual screen to the real screen when you need to.
 
 This package contains the runtime files needed for ROTE.
 %package -n %libname_devel
-Summary: A simple C library for VT102 terminal emulation
+Summary: Simple C library for VT102 terminal emulation
 Group: System/Libraries
 Provides: librote-devel
 Requires: %libname = %{version}
