@@ -1,7 +1,7 @@
 %define major 0
 %define name rote
 %define version 0.2.8 
-%define release %mkrel 3
+%define release %mkrel 4
 %define  libname %mklibname %{name} %{major}
 %define  libname_devel  %mklibname -d  %{name} %{major}
 
