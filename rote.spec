@@ -5,7 +5,7 @@
 Summary:	Simple C library for VT102 terminal emulation
 Name:		rote
 Version:	0.2.8
-Release:	7
+Release:	8
 License:	GPL
 Group:		System/Libraries
 Url:		http://rote.sourceforge.net/
