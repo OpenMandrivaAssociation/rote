@@ -8,7 +8,7 @@ Version:	0.2.8
 Release:	8
 License:	GPL
 Group:		System/Libraries
-Url:		http://rote.sourceforge.net/
+Url:		https://rote.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(ncurses)
 
